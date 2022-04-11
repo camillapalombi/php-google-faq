@@ -1,0 +1,26 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #3c4043;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3367d6;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
