@@ -6,16 +6,78 @@ html {
     line-height: 24px;
 }
 
+/*HEADER*/
+header {
+    height: 7rem;
+    position: sticky;
+    top: 0;
+    margin: -8px;
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+nav {
+    width: 100%;
+    background-color: white;
+    margin-left: 20px;
+  }
+  
+.container-privacy-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #aaa;
+    font-size: 20px;
+    height: 30px;
+}
+  
+.logo {
+    width: 70px;
+}
+  
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    color: #5f6368;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+  
+.active-link {
+    color: #3467D6 !important;
+    border-bottom: 3px solid #3467D6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+  }
+
+.privacy-terms {
+    color: #5f6368;
+    font-size: 23px;
+}
+
+
+/*MAIN*/
 main {
     width: 60%;
     margin: auto;
+    margin-top: 100px;
 }
 
 ul {
     list-style: none;
 }
 
-a {
+p a {
     text-decoration: none;
     color: #3367d6;
 }
@@ -24,3 +86,4 @@ h2 {
     font-size: 24px;
     line-height: 32px;
 }
+
