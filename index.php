@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Google Faq</title>
+    <!--Style -->
     <link rel="stylesheet" href="style.css">
+    <!--Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+
     <!--HEADER -->
     <header>
 
@@ -33,7 +38,8 @@
         </nav>
     </header>
 
-    <!--MAIN -->
+
+    <!--MAIN (PHP) -->
     <main>
 
     <?php
@@ -114,7 +120,6 @@
 
     ?>
 
-
     <?php
       foreach ($google_faq as $value) {
         ?>
@@ -124,14 +129,14 @@
       }
       ?>
 
-    
-
     </main>
+
 
     <!--FOOTER -->
     <footer>
 
         <div class="footer-container">
+
             <ul class="footer-links">
                 <li><a href="#!">Google</a></li>
                 <li><a href="#!">Tutto su Google</a></li>

@@ -1,8 +1,8 @@
+/*Global: */
 html {
     font-family: 'Roboto', sans-serif;
     color: #3c4043;
     font-size: 14px;
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -51,7 +51,7 @@ nav {
 }
   
 .active-link {
-    color: #3467D6 !important;
+    color: #3467D6;
     border-bottom: 3px solid #3467D6;
 }
 
@@ -102,28 +102,28 @@ footer {
     align-items: center;
 }
   
-  .footer-links{
+.footer-links{
     display: flex;
     gap: 10px;
     list-style: none;
     color: #aaa;
-  }
+}
   
-  .footer-links a{
+.footer-links a{
     text-decoration: none;
     color: rgba(61,61,61,.8);
-  }
+}
   
-  #languages{
+#languages{
     height: 50%;
     width: 160px;
     margin-right: 20px;
-  }
+}
 
-  .fa-globe {
+.fa-globe {
       color: #3367d6;
       margin-right: 5px;
       font-size: 20px;
       vertical-align: middle;
-  }
+}
 
