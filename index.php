@@ -22,19 +22,26 @@
 
         <!--Nav Bar -->
         <nav>
-            <div class="container-privacy-logo">
-                <div class="logo">
-                    <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="">
+            <div class="header-left">
+                <div class="container-privacy-logo">
+                    <div class="logo">
+                        <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="">
+                    </div>
+                    <div class="privacy-terms">Privacy e termini</div>
                 </div>
-                <div class="privacy-terms">Privacy e termini</div>
+                <ul class="nav-links">
+                    <li><a href="#!"> Introduzione </a></li>
+                    <li><a href="#!"> Norme sulla privacy </a></li>
+                    <li><a href="#!"> Termini di servizio </a></li>
+                    <li><a href="#!"> Tecnologie </a></li>
+                    <li><a class="active-link" href="#!"> Domande frequenti </a></li>
+                </ul>
             </div>
-            <ul class="nav-links">
-                <li><a href="#!"> Introduzione </a></li>
-                <li><a href="#!"> Norme sulla privacy </a></li>
-                <li><a href="#!"> Termini di servizio </a></li>
-                <li><a href="#!"> Tecnologie </a></li>
-                <li><a class="active-link" href="#!"> Domande frequenti </a></li>
-            </ul>
+
+            <div class="header-right">
+            <i class="fa-solid fa-bars"></i>
+            <div class="user">C</div>
+            </div>
         </nav>
     </header>
 
